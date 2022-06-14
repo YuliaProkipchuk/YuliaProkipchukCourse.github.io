@@ -1,0 +1,74 @@
+h2{
+    color: #000d07;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+.horse-text{
+    width: 80%;
+    background-color: #dcd7d764;
+    margin: 20px auto;
+    padding: 20px;
+    font-size: 17px;
+    font-family: 'Ruda', sans-serif;
+    line-height: 1.5;
+}
+.photo-cont{
+    width: 1200px;
+    /* height: 1000px; */
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.pic{
+    width: 33%;
+    /* height: 500px; */
+}
+img{
+    width: 100%;
+}
+header{
+    background-image: url(../image/test.jpg);
+    background-size: 100%;
+}
+.price-heading{
+    color: #0c2b0e;
+    font-size: 40px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.price-price, .price-price1{
+    width: 800px;
+    height: 200px;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 25px;
+    list-style-type: none;
+    line-height: 180%;
+    font-size: 17px;
+    font-family: 'Ruda', sans-serif;
+
+}
+.price-price1{
+    width: 90%;
+}
+span{
+    font-family: sans-serif;
+    font-weight: 700;
+}
+.dome{
+    text-align: center;
+    color: #0c2b0e;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    margin-top: 0;
+}

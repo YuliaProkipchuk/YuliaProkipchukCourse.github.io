@@ -1,0 +1,516 @@
+@import url(fonts.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(../image/0fd1a2ac00ceed60487d2fe31eb6bba3.jpg);
+    background-size: 100% 100%;
+    height: 675px;
+    background-attachment: fixed;
+    margin-bottom: 50px;
+    z-index: 999;
+}
+
+.uil-mountains {
+    color: white;
+    font-size: 60px;
+}
+
+.nav {
+    position: fixed;
+    top: 0px;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.445);
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+ol {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1046px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 600;
+}
+
+.heading {
+    /* font-family: 'Bangers', cursive; */
+    /* font-family: 'Comfortaa', cursive;*/
+    font-family: 'Philosopher', sans-serif;
+    /* font-style: italic; */
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+    margin: 0 auto;
+    padding-top: 71px;
+    height: 360px;
+    align-items: end;
+    color: white;
+    text-shadow: 5px 2px #0c2b0e;
+}
+
+.under-heading {
+    font-family: 'Ruda', sans-serif;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-size: 31px;
+    word-spacing: 20px;
+    margin-top: 30px;
+}
+
+.about {
+    width: 70%;
+    /* height: 800px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.about-us {
+    height: 210px;
+    width: 260px;
+    background-color: #ffffff70;
+    padding-left: 27px;
+    padding-right: 13px;
+    box-shadow: 1px 2px 3px 2px #beb6b6;
+    transition: background-color 0.5s;
+}
+
+.offer-heading {
+    text-align: center;
+    font-size: 45px;
+    margin-top: 30px;
+    color: #0c2b0e;
+    font-family: 'Roboto';
+    font-weight: 600;
+}
+
+.numb {
+    margin-top: 20px;
+    width: 68px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #0c2b0e;
+    color: white;
+    font-size: 41px;
+    text-align: center;
+    line-height: 65px;
+    font-family: 'Bangers', cursive;
+
+}
+
+.aboutcontent {
+    text-align: center;
+    font-family: 'Ruda', sans-serif;
+    font-size: 17px;
+    color: #3e3939;
+    font-weight: 600;
+
+}
+
+.offername {
+    /* position: relative; */
+    width: max-content;
+    /* font-family: 'Ruda', sans-serif; */
+    font-size: 26px;
+    /* color: #3e3939; */
+    font-weight: 600;
+    /* margin-bottom: 15px; */
+    text-shadow: 1px 1px 1px black;
+}
+
+/* .offername::after{
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    left: calc(1.5rem*-1);
+    height: 4px;
+    background-color: #bf2c37;
+    width: calc(1.5rem + 100%);
+} */
+.skicontent {
+    margin-bottom: 15px;
+}
+
+.about-name {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.offer-sec {
+    height: 1250px;
+}
+
+.offer {
+    font-family: sans-serif;
+    color: white;
+    background-image: url(../image/231bda310c5327281e48b1f964edbda3.jpg);
+    background-size: cover;
+    height: 420px;
+    width: 400px;
+    display: flex;
+    align-items: flex-end;
+    overflow: hidden;
+}
+
+.ski {
+    background-image: url(../image/231bda310c5327281e48b1f964edbda3.jpg);
+}
+
+.overview {
+    background-image: url(../image/bukovytsia-4.jpg);
+    background-position: 30%;
+
+}
+
+.tubing {
+    background-image: url(../image/47d2920a7a125a3a30c647745e8af402.jpg);
+}
+
+.skate {
+    background-image: url(../image/832ed2b0abdee3e9f19660d0529ff8ac.jpg);
+}
+
+/* .skate-name{
+    width: 200px;
+} */
+.riding {
+    background-image: url(../image/out31.jpg);
+
+}
+
+.offers {
+    /* width: 90%; */
+    height: 1000px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+
+.offer-info {
+    padding: 1.5rem;
+    background: linear-gradient(hsl(0 0% 0% / 0),
+            hsl(0 0% 0% / 0.3) 20%,
+            hsl(0 0% 0% / 1));
+    height: 250px;
+    width: 100%;
+    transform: translateY(76%);
+    transition: transform 500ms ease;
+}
+
+.offer-info>*:not(.offername) {
+    opacity: 0;
+    transition: opacity 500ms linear;
+}
+
+.line {
+    height: 4px;
+    background-color: #0c2b0e;
+    width: calc(0rem + 100%);
+    margin-left: -25px;
+    margin-bottom: 6px;
+}
+
+.offer:hover .offer-info {
+    transform: translateY(0);
+}
+
+.offer:hover .offer-info>* {
+    opacity: 1;
+}
+
+.skate-info,
+.skischool-info {
+    transform: translateY(66%);
+}
+
+.skischool-name {
+    width: 231px;
+}
+
+.skischool {
+    background-image: url(../image/ski-school.jpg);
+    background-position: right;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #0c2b0e;
+}
+
+.offer:hover {
+    background-color: #ccc7c71f;
+    cursor: pointer;
+}
+
+.offer_button {
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    width: 165px;
+    background-color: #0c2b0e;
+    display: block;
+    text-align: center;
+    height: 34px;
+    line-height: 34px;
+}
+
+.winter-about {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    height: 360px;
+    margin: 0 auto;
+    background-color: #dcd7d72e;
+    margin-bottom: 40px;
+}
+
+.winter-photo {
+    width: 500px;
+    height: 281px;
+
+}
+
+.winter-info {
+    font-family: sans-serif;
+    width: 51%;
+    align-self: flex-start;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    align-items: end;
+    justify-content: space-around;
+}
+
+.winter-heading {
+    font-weight: 900;
+    color: #0c2b0e;
+    font-size: 35px;
+}
+
+.winter-text {
+    font-size: 16px;
+    line-height: 1.6;
+
+}
+.about-link{
+    color: white;
+    text-decoration: none;
+}
+.click-on-summer {
+    background-image: url(../image/82f23f141a1d548248209ae79ccf6c8e.jpg);
+    width: 100%;
+    height: 720px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 40px;
+}
+
+.summerlink {
+    width: 100%;
+    height: 720px;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 500ms linear;
+}
+.logo{
+    height: 90%;
+    width: 75px;
+}
+.white-line {
+    height: 3px;
+    width: 80%;
+    background-color: white;
+    margin: 20px;
+
+
+}
+
+.summer-heading {
+    color: white;
+    font-size: 50px;
+    font-family: 'Ruda', sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+.summerlink:hover {
+    opacity: 1;
+}
+
+.summer-button {
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(#0c2b0e,
+            #0c2b0edb);
+
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.summer-link {
+    text-decoration: none;
+}
+
+footer {
+    background-color: #323232;
+    width: 100%;
+    height: 240px;
+}
+.footer{
+    display: flex;
+    width: 80%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+.phone-info{
+    display: flex;
+    width: 87%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    font-size: 20px;
+    align-items: center;
+    color: rgb(195, 195, 195);
+}
+.footer-img{
+    margin-top: 35px;
+    width: 90px;
+    height: 70px;
+}
+.uil{
+    font-size: 50px;
+    color: rgb(195, 195, 195);
+}
+.media{
+    text-align: center;
+    width: 100%;
+}
+.facebook{
+    margin: 30px;
+}
+.copyright{
+    text-align: center;
+    color: #beb6b6;
+    margin-top: 10px;
+}
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    left: -51px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #888;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .about-link{
+      text-align: center;
+      font-family: 'Ruda', sans-serif;
+  }
+  
+
+header{
+    background-image: url(../image/95337869_2560764340696808_5694795771690352640_n.jpg);
+}
+.offer{
+    background-image: url(../image/sh11-570x570.jpg);
+}
+.overview{
+    background-image: url(../image/5ff00507f5bd7ce028f39d33e0c5bcf5.jpg);
+}
+.tubing{
+    background-image: url(../image/956346f76ab423bd72a0022da08c28dc.jpg);
+}
+.skate{
+    background-image: url(../image/b5077024a349d8a06e56cb4bf30a563a.jpg);
+    background-position: center;
+}
+.skischool{
+    background-image: url(../image/210065155_3724284141011483_8382044380768244116_n.jpg);
+}
+.riding{
+    background-image: url(../image/107485605_2721784734594767_6472389037799152906_n.jpg);
+}
+.winter-photo{
+    width: 465px;
+}
+.click-on-summer {
+    background-image: url(../image/29495869_1376151059158148_250495158561275904_n.jpg);
+}
+.offer-info{
+    z-index: 0;
+}

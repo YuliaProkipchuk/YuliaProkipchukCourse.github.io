@@ -1,0 +1,38 @@
+.berry-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.berry-sec{
+    height: 900px;
+}
+.pic{
+    width: 33%;
+}
+img{
+    width: 100%;
+    height: 270px;
+}
+header{
+    background-image: url(../image/raspberry-1465988_1920.webp);
+    background-size: 100%;
+}
+.berry-cont{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    background-color: #000d07;
+    width: 1000px;
+    height: 300px;
+}
+.berry-text{
+    width: 700px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-self: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 1.5;
+}
